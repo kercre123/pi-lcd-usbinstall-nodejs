@@ -1,0 +1,17 @@
+{
+  "name": "installmedia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "onoff": "^6.0.3",
+    "raspberrypi-liquid-crystal": "^1.18.0",
+    "read-last-lines": "^1.8.0",
+    "realtime-stdout": "^0.1.0"
+  }
+}
