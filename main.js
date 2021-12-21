@@ -3,9 +3,7 @@ var buttonOne = new Gpio(17, 'in', 'both');
 var buttonTwo = new Gpio(23, 'in', 'both');
 const LCD = require('raspberrypi-liquid-crystal');
 const lcd = new LCD(1, 0x27, 16, 2);
-const { exec } = require("child_process");
 const realtimeStdout = require('realtime-stdout')
-const readLastLines = require('read-last-lines');
 
 menuOp1 = "Manjaro 21.02"
 menuOp2 = "Pop OS! 21.10"
